@@ -4,7 +4,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -170,12 +170,12 @@ h3 {
 }
 
 .hero-description-item:before {
-    content:"";
-    width:10px;
-    height:10px;
-    border-radius:50%;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
     background: #92a4e0;
-    display:inline-block;
+    display: inline-block;
     margin-right: 12px;
     margin-bottom: 5px;
 
@@ -505,7 +505,7 @@ th {
 }
 
 .feedback-flex h2 {
-    text-align:center;
+    text-align: center;
 }
 
 .feedback p {
@@ -538,7 +538,7 @@ th {
 #feedback-email:focus,
 #feedback-phone:focus,
 #feedback-message:focus,
-#mailing-email:focus  {
+#mailing-email:focus {
     outline: none;
     border: 1px solid #949292;
 }
@@ -609,6 +609,7 @@ button:focus {
 button:active {
     outline: none;
 }
+
 footer {
     color: #000;
     padding-top: 50px;
@@ -628,7 +629,7 @@ footer {
     width: 270px;
     padding: 10px 20px;
     border-radius: 5px 0 0 5px;
-    font-size:15px;
+    font-size: 15px;
     border: 1px solid #bababa;
 }
 
@@ -637,7 +638,7 @@ footer {
     height: 39px;
     border-radius: 0 5px 5px 0;
     background-color: #5f5a82;
-    border:0;
+    border: 0;
 }
 
 
@@ -649,6 +650,7 @@ footer {
 .social {
     display: flex;
 }
+
 .social a {
     display: flex;
 }
@@ -933,39 +935,41 @@ footer {
         display: none;
     }
 }
+
 @media screen and (max-width: 1000px) {
     .contacts-top-inputs {
         display: flex;
         flex-direction: column;
     }
-#feedback-name,
-#feedback-email,
-#feedback-phone,
-#feedback-message {
-    width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
 
-.confidentiality {
-    flex-direction: column
-}
+    #feedback-name,
+    #feedback-email,
+    #feedback-phone,
+    #feedback-message {
+        width: 80vw;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 
-.send-form-button {
-    margin-top: 20px;
-    width: 530px;
-}
+    .confidentiality {
+        flex-direction: column
+    }
 
-.conf-1 {
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .send-form-button {
+        margin-top: 20px;
+        width: 530px;
+    }
 
-#feedback-checkbox {
-    margin-right: 10px;
-}
+    .conf-1 {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #feedback-checkbox {
+        margin-right: 10px;
+    }
 
 }
 
@@ -1021,7 +1025,7 @@ footer {
         padding-right: 40px;
     }
 
-   
+
 
     footer {
         flex-direction: column;
@@ -1138,12 +1142,12 @@ footer {
     }
 
     #feedback-name,
-#feedback-email,
-#feedback-phone,
-#feedback-message,
-.send-form-button {
-    width: 80vw;
-}
+    #feedback-email,
+    #feedback-phone,
+    #feedback-message,
+    .send-form-button {
+        width: 80vw;
+    }
 }
 
 
@@ -1159,7 +1163,7 @@ footer {
         -moz-border-radius: 0;
         -ms-border-radius: 0;
         -o-border-radius: 0;
-}
+    }
 
 }
 
